@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float turnSpeed;
+    public float speed = 25.0f;
+    public float turnSpeed = 45.0f;
     public float horizontalInput;
-
     // Start is called before the first frame update
     void Start()
     {
