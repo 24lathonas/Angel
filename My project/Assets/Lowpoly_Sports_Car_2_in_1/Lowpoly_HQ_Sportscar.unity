@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 953ab6944a8695c4eb4b0657133f46f9, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 216bb7dc254c81e4d8aef2496dfcc3d6, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07aca669ffd6df545ac44296868b61ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2020107972}
+  player: {fileID: 0}
 --- !u!1001 &423999395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -413,6 +413,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25ff6cef12e860848b4b389aad04c891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1101226381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101226373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f041626579797419fc0c5664c54368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1779154433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -568,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07aca669ffd6df545ac44296868b61ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1101226373}
+  player: {fileID: 0}
 --- !u!1 &1895664614
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,5 +711,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25ff6cef12e860848b4b389aad04c891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2020107980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020107972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f041626579797419fc0c5664c54368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
