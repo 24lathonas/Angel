@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
             if(Input.GetKey(KeyCode.LeftArrow))
                 transform.Rotate(0, -90 * Time.deltaTime, 0);
             if(Input.GetKey(KeyCode.RightArrow))
-                transform.Rotate(0, -90 * Time.deltaTime, 0);
+                transform.Rotate(0, 90 * Time.deltaTime, 0);
         }
 
         if(Input.GetKey(KeyCode.DownArrow))
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
             if(Input.GetKey(KeyCode.LeftArrow))
                 transform.Rotate(0, -90 * Time.deltaTime, 0);
             if(Input.GetKey(KeyCode.RightArrow))
-                transform.Rotate(0, -90 * Time.deltaTime, 0);
+                transform.Rotate(0, 90 * Time.deltaTime, 0);
         }
     }
 }
