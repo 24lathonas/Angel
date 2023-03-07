@@ -191,6 +191,7 @@ GameObject:
   - component: {fileID: 800875374}
   - component: {fileID: 800875376}
   - component: {fileID: 800875375}
+  - component: {fileID: 800875377}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -264,6 +265,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &800875377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800875373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f1e8f7e7ac9594eb89433f5dc0507e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player2: {fileID: 0}
 --- !u!1 &943416008
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +289,7 @@ GameObject:
   - component: {fileID: 943416009}
   - component: {fileID: 943416011}
   - component: {fileID: 943416010}
+  - component: {fileID: 943416012}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -348,6 +363,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &943416012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943416008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07aca669ffd6df545ac44296868b61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &947456500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4234196074273069669, guid: 39347394a2d0907499eb5f1070a9c727, type: 3}
@@ -412,6 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4592f834a1954b742900b57f60bec884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 12
 --- !u!1001 &1769047623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -518,6 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f041626579797419fc0c5664c54368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 12
 --- !u!114 &1769047626
 MonoBehaviour:
   m_ObjectHideFlags: 0
