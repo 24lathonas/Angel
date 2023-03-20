@@ -8,19 +8,17 @@ public class MainMenu : MonoBehaviour
     public bool Quit;
 
     void OnMouseDown()
-    if(start)
     {
-        SceneManager.LoadScene(//scenenumber)
+        SceneManager.LoadScene();
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
         
+    }
+    void LoadScene()
+    {
+        (int sceneBuildIndex, SceneManagement.LoadSceneMode);
+        (mode = LoadSceneMode.Single);
     }
 }
