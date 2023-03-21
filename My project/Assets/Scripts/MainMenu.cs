@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
     }
     void LoadScene()
     {
-        (int sceneBuildIndex, SceneManagement.LoadSceneMode);
-        (mode = LoadSceneMode.Single);
+        int = (sceneBuildIndex, SceneManagement.LoadSceneMode);
+        mode = (LoadSceneMode.Single);
     }
 }
