@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
 
     void OnMouseDown()
     {
-        SceneManager.LoadScene();
+        MainMenu.LoadScene();
     }
     // Update is called once per frame
     void Update()
@@ -18,11 +18,11 @@ public class MainMenu : MonoBehaviour
     }
     void LoadScene()
     {
-        SceneBuildIndex.SceneManagement.LoadSceneMode;
+        MainMenu.SceneManager;
     }
 
-    int mode()
+    void SceneManager()
     {
-        MainMenu.LoadScene(Start);
+        MainMenu.SceneManager(Start);
     }
 }
