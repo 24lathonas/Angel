@@ -9,7 +9,6 @@ public class MainMenu : MonoBehaviour
 
     void OnMouseDown()
     {
-        Start.MainMenu.LoadScene;
         
     }
     // Update is called once per frame
@@ -20,13 +19,11 @@ public class MainMenu : MonoBehaviour
     void LoadScene()
     {
         #pragma warning disable format
-        Update;
         #pragma warning restore formatdate.SceneManager// Fix later
-        
     }
 
     void SceneManager()
     {
-        MainMenu.Update(Start);
+        
     }
 }
